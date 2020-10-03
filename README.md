@@ -1,4 +1,4 @@
-# spotify_analyser
+# Spotify_analyser
 Application d'analyse de musiques via spotify
 
 ## Prérequis
@@ -14,3 +14,6 @@ client_secret=xxxxxxxxxxx
 ```
 Puis lancez le main.py
 
+### Exemple de plot 
+
+![Alt text](cap1.png?raw=true "Optional Title")
