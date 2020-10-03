@@ -45,23 +45,23 @@ def main(res):
     plt.plot(x,tempos)
 
     plt.subplot(223)
-    plt.title("Confidence tempo en fonction du temps")
+    plt.title("Confiance tempo en fonction du temps")
     plt.xlabel('temps')
-    plt.ylabel('tempo')
+    plt.ylabel('confiance tempo')
     plt.axis([np.min(x),np.max(x) ,np.min(tempos_conf),np.max(tempos_conf)])
     plt.plot(x,tempos_conf,'r')
 
     plt.subplot(222)
-    plt.title('Pitch en focntion du temps')
+    plt.title('Pitch en fonction du temps')
     plt.xlabel('temps')
     plt.ylabel('picth')
     plt.plot(x,notes)
 
     plt.subplot(224)
     plt.plot(x,notes_conf,'r')
-    plt.title('Confidence pitch en focntion du temps')
+    plt.title('Confiance pitch en fonction du temps')
     plt.xlabel('temps')
-    plt.ylabel('picth')
+    plt.ylabel('confiance picth')
 
     plt.show()
 
